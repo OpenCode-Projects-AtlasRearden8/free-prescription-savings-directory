@@ -1,0 +1,15 @@
+{
+  "name": "free-prescription-savings-directory",
+  "version": "1.0.0",
+  "description": "Static directory of free, legitimate ways to lower US prescription cash prices. Information and navigation only, never medical advice.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/test.mjs",
+    "test:live": "node tests/test.mjs --live"
+  },
+  "author": "Asdale Dynamics, LLC",
+  "copyright": "Copyright (c) 2026 Asdale Dynamics, LLC"
+}

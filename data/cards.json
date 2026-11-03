@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "site_title": "FreeRx Finder: Free & Legit Ways to Pay Less for Prescriptions",
+    "tagline": "A plain-English directory of free, legitimate ways to lower US prescription cash prices.",
+    "publisher": "Asdale Dynamics, LLC",
+    "publisher_url": "https://dylanasdale.github.io",
+    "generated_note": "Built from data/cards.json. Recheck dates are for the directory, not your prescriptions.",
+    "recheck_interval_note": "Every card carries a 'recheck by' date. Programs change prices and rules often, so we plan to re-verify each entry by that date."
+  },
+  "categories": [
+    {
+      "id": "manufacturer",
+      "name": "Manufacturer Savings Programs",
+      "intro": "Drug companies run their own savings programs: copay cards for people with commercial (workplace or marketplace) insurance, and separate patient assistance programs for people who are uninsured or on low income. One big rule to know up front: copay savings cards generally cannot be used with Medicare, Medicaid, TRICARE, or other government insurance. If you have government coverage, look at the company's patient assistance program or the Copay Accumulator note below.",
+      "cards": [
+        {
+          "id": "lilly-insulin-affordability",
+          "name": "Lilly Insulin Value Program (Eli Lilly)",
+          "url": "https://insulins.lilly.com/lilly-insulin-value-program",
+          "what_it_is": "Lilly's official savings program for its insulins (Humalog, Basaglar, Humulin, and more): download a savings card and pay no more than $35 a month per fill, whether you have commercial insurance or no insurance and pay cash.",
+          "eligibility_notes": "Open to US residents 18+ with a valid prescription. People enrolled in federal government insurance programs (Medicare, Medicaid, TRICARE) can't use the savings card, but federal law caps Medicare Part D insulin copays at $35 a month, so Medicare folks are covered a different way. The card expires at year end, so always grab the current one.",
+          "cost": "Free to download the card. Insulins max out at $35/month for eligible people.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Lilly's card carries an expiration date and program terms update each year. Re-download the current card and confirm the $35 offer still stands."
+        },
+        {
+          "id": "novocare-pharmacy",
+          "name": "NovoCare Pharmacy (Novo Nordisk)",
+          "url": "https://www.novocare.com/",
+          "what_it_is": "Novo Nordisk's direct pharmacy and savings hub. Historically offers around $499/month self-pay pricing for Ozempic/Wegovy through NovoCare Pharmacy and insulin savings programs (around $35/month for eligible people using Novo insulins), all subject to frequent change.",
+          "eligibility_notes": "Cash-pay pricing is for people paying without insurance. Insulin savings options vary by insurance type; people with government insurance often have separate or no offers. Prices and availability change often, so check the site the week you need it.",
+          "cost": "Free to check. Cash-pay prices apply when you order.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "GLP-1 pricing changed several times in 2024-2026. Verify current cash-pay prices and insulin offers directly on novocare.com."
+        },
+        {
+          "id": "sanofi-patient-connection",
+          "name": "Sanofi Patient Connection",
+          "url": "https://www.sanofipatientconnection.com/",
+          "what_it_is": "Sanofi's official site for insulin savings (Lantus, Apidra, Toujeo and others) plus free medicine through the Sanofi Patient Assistance Program for people who qualify by income and don't have prescription coverage.",
+          "eligibility_notes": "Copay/savings programs are generally for people with commercial insurance. The free-medicine patient assistance program is aimed at uninsured or underinsured people who meet income guidelines. Government-insured patients should read the program's own rules carefully.",
+          "cost": "Free to apply.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Reconfirm both the insulin savings offer and the free-medicine program are open to new applicants."
+        },
+        {
+          "id": "healthwell-foundation",
+          "name": "HealthWell Foundation",
+          "url": "https://www.healthwellfoundation.org/",
+          "what_it_is": "A large national charity that gives grants covering copays, premiums, deductibles, and travel costs for people who can't afford out-of-pocket medicine costs. Funds open and close by disease area, so timing matters, though they're often generous when open.",
+          "eligibility_notes": "Generally requires prescription-drug or commercial insurance (Medicare, commercial, or marketplace depending on the fund), household income at or under a set multiple of the federal poverty level (usually 300-500%), and a medicaid-excluded status varies by fund, so check the specific fund. Uninsured applicants usually need a different program, like the manufacturer assistance above.",
+          "cost": "Free to apply; grants cover out-of-pocket costs for eligible people.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Check which disease funds are currently open and confirm the fund matching your situation still exists."
+        }
+      ]
+    },
+    {
+      "id": "discount-cards",
+      "name": "National Discount Card Programs",
+      "intro": "These are free pharmacy discount cards and apps. You hand the card (or app code) to the pharmacy instead of using insurance, and the negotiated cash price is often lower than the sticker price or even a copay. They're free, legitimate, and you can use them even if you have insurance (though you usually can't combine a discount card WITH your insurance claim on the same fill).",
+      "cards": [
+        {
+          "id": "goodrx",
+          "name": "GoodRx",
+          "url": "https://www.goodrx.com/",
+          "what_it_is": "The best-known prescription discount card. Search a drug name, see prices at nearby pharmacies, and show the coupon code at the counter or in the app. Also has a free savings card you can keep in your wallet.",
+          "eligibility_notes": "No sign-up required for most coupons; free for everyone including people with insurance. Not valid with insurance claims on the same purchase, and not accepted for government-program purchases like Medicare Part B drugs. A paid GoodRx Gold membership exists you can skip.",
+          "cost": "Free coupons and card. Optional paid tier (GoodRx Gold) you can skip.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Confirm the free coupon flow still works without a paid account."
+        },
+        {
+          "id": "singlecare",
+          "name": "SingleCare",
+          "url": "https://www.singlecare.com/",
+          "what_it_is": "A free coupon card and app that works at most major pharmacy chains and many independents. Compare prices, get a coupon code, and hand it over just like the card version.",
+          "eligibility_notes": "Free for everyone, with or without insurance. Only one discount can be applied per purchase, so you can't stack it on top of an insurance copay. Medicare beneficiaries may use discount cards on cash purchases but should confirm current policy with the pharmacist.",
+          "cost": "Free.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Confirm the free tier is still available at sign-up."
+        },
+        {
+          "id": "scriptsave-wellrx",
+          "name": "ScriptSave WellRx",
+          "url": "https://www.wellrx.com/",
+          "what_it_is": "Another free discount card in the same family as GoodRx and SingleCare: search your drug, see estimated prices at local pharmacies, and show the card at checkout.",
+          "eligibility_notes": "Free for everyone in the US, including people with or without insurance. Same one-discount-per-purchase rule applies. Comparing WellRx against GoodRx and SingleCare for the same drug at the same pharmacy often saves a few dollars.",
+          "cost": "Free.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Confirm the site and free card program are still active."
+        },
+        {
+          "id": "americas-pharmacy-card",
+          "name": "America's Pharmacy Card",
+          "url": "https://www.americaspharmacy.com/",
+          "what_it_is": "A free, no-strings prescription savings card accepted at a large network of chain and independent pharmacies. Works like the others: show the card, pay the negotiated discounted price.",
+          "eligibility_notes": "Free and open to everyone in the US. Can be shared with family members. Not usable together with an insurance claim on the same fill.",
+          "cost": "Free.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Confirm the card is still downloadable free of charge."
+        }
+      ]
+    },
+    {
+      "id": "price-comparison",
+      "name": "Pharmacy Price Comparison Tools",
+      "intro": "Before you drive anywhere, spend five minutes comparing prices. The same generic drug can vary by $40 or more between pharmacies in the same town. These tools show you the range, and two of them can even ship the medicine to you.",
+      "cards": [
+        {
+          "id": "goodrx-compare",
+          "name": "GoodRx Price Comparison",
+          "url": "https://www.goodrx.com/",
+          "what_it_is": "Enter a drug (and dose) and see current estimated prices at pharmacies near you, plus national averages. Great for spotting when the pharmacy across the street is half the price of the one you usually use.",
+          "eligibility_notes": "Free, no account needed to search. Prices are estimates and change; the coupon shown at checkout is what you actually pay.",
+          "cost": "Free.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Spot-check a common drug (like amoxicillin) and confirm prices display without logging in."
+        },
+        {
+          "id": "singlecare-compare",
+          "name": "SingleCare Price Comparison",
+          "url": "https://www.singlecare.com/",
+          "what_it_is": "Same idea as GoodRx: search a drug, compare local pharmacy prices, and grab the best coupon. Some people find SingleCare beats GoodRx on certain drugs at certain chains, so check both.",
+          "eligibility_notes": "Free to search and use for anyone in the US.",
+          "cost": "Free.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Spot-check a common generic and confirm no login wall on search."
+        },
+        {
+          "id": "costplusdrugs",
+          "name": "Cost Plus Drugs (Mark Cuban Cost Plus Drug Company)",
+          "url": "https://costplusdrugs.com/",
+          "what_it_is": "An online pharmacy that sells many generic drugs at a transparent markup (their stated cost plus a small percentage) and ships to your door. No discount card needed, just their list price.",
+          "eligibility_notes": "Open to anyone in the US with a valid prescription from a US prescriber. Works whether or not you have insurance. Shipping takes a few days, so it's best for maintenance medicines, not the antibiotic you need today.",
+          "cost": "Free to browse; you pay the listed drug price plus shipping.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Confirm they still serve cash-pay customers without a membership fee."
+        },
+        {
+          "id": "amazon-pharmacy",
+          "name": "Amazon Pharmacy",
+          "url": "https://pharmacy.amazon.com/",
+          "what_it_is": "Amazon's licensed online pharmacy. Shows transparent cash prices for generics without insurance, delivers to your door, and offers an automatic savings feature for Prime members on many generics.",
+          "eligibility_notes": "Anyone with a valid US prescription, Amazon account, and US address can use the cash-price option. Prime perks require a Prime membership but the site itself is free to check.",
+          "cost": "Free to browse; pay listed cash price per prescription.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Confirm cash-pay (non-insurance) checkout is still available."
+        },
+        {
+          "id": "pharmacychecker",
+          "name": "PharmacyChecker",
+          "url": "https://www.pharmacychecker.com/",
+          "what_it_is": "An independent watchdog site that compares prices at pharmacies including verified international options, and warns you about 'rogue' online pharmacies. Useful for expensive brand-name drugs where US cash prices are extreme.",
+          "eligibility_notes": "Free to search. Importing personal-use medicines from abroad sits in a gray legal area with real rules (generally allowed only for personal use with a prescription, but not officially endorsed); read their guidance and your own risk tolerance carefully. This card is for information only.",
+          "cost": "Free to browse.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Confirm the verification listings are current and the site hasn't changed its model."
+        }
+      ]
+    },
+    {
+      "id": "generics-lists",
+      "name": "$4 Generics & Flat-Price Lists",
+      "intro": "Several big chains publish flat-price lists: a fixed short menu of common generics sold for $4 for a 30-day supply or $10 for 90 days, no card or membership needed. Ask the pharmacy for their current list or check the links. These programs have been around for years (Walmart started in 2006), but they do change, so always match your exact drug, dose, and quantity against the current list.",
+      "cards": [
+        {
+          "id": "walmart-4-list",
+          "name": "Walmart $4 / $10 Prescription Program",
+          "url": "https://www.walmart.com/cp/4-prescriptions/1078664",
+          "what_it_is": "Walmart's famous flat-price program: a set list of common generics sold for $4 (30-day supply) or $10 (90-day supply) at Walmart and Sam's Club pharmacies, with some drugs in higher tiers (about $9-$24). Expect classics like lisinopril, metformin, and atorvastatin.",
+          "eligibility_notes": "Anyone can use it, no insurance or card needed, and you don't have to be a regular Walmart shopper. Not every generic is covered and pricing is 'starting at,' so match your exact drug, dose, and quantity against the current list. Ask the pharmacist to run your prescription against the program.",
+          "cost": "$4 or $10 per qualifying prescription; the program itself is free.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Re-download the current drug list from Walmart's $4 Prescriptions page and note that tiers change."
+        },
+        {
+          "id": "kroger-rx-savings",
+          "name": "Kroger Rx Savings Club",
+          "url": "https://www.goodrx.com/corporate/business/kroger-rx-savings-club-powered-by-goodrx",
+          "what_it_is": "Kroger and Kroger-family pharmacies (Ralphs, Fred Meyer, King Soopers, Smith's, and more) run a low-cost generics club with GoodRx: 100+ common generics at $0-$12 for 30- or 90-day supplies, and discounts on thousands more. Enroll in the Kroger app or at any Kroger pharmacy counter.",
+          "eligibility_notes": "Membership costs an annual fee, historically around $36 for one person or $72 for a family of up to six (with pets). It's open to insured, underinsured, and uninsured people, and can beat your copay on cash-priced fills. Check current pricing before enrolling; fees have changed in the past.",
+          "cost": "Small annual membership fee (around $36-$72); drug prices are flat-rate club prices.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Confirm the club is still offered and note the current membership fee via the GoodRx explainer or the Kroger app."
+        },
+        {
+          "id": "publix-rx-marketplace",
+          "name": "Publix Rx Marketplace",
+          "url": "https://www.publix.com/pharmacy/pharmacy-services/rxmarketplace",
+          "what_it_is": "Publix's prescription savings hub. Its long-running free-antibiotic program was retired in 2022, and today Publix points customers to its Rx Marketplace discount tool plus low-cost 90-day fills on common generics, usable with the discount card above.",
+          "eligibility_notes": "The marketplace is free for anyone filling at a Publix pharmacy, with or without insurance, and is exactly the kind of tool to stack next to GoodRx and SingleCare for a price comparison. Individual drug prices still vary, so get the quote first.",
+          "cost": "Free to check and use.",
+          "recheck_by": "2027-01-31",
+          "recheck_how": "Confirm the Rx Marketplace page is live and spot-check a common generic for a quoted price."
+        },
+        {
+          "id": "albertsons-4-list",
+          "name": "Albertsons / Safeway Flat-Price Generics",
+          "url": "https://www.safeway.com/pharmacy/prescriptions.html",
+          "what_it_is": "The Albertsons-Safeway family of pharmacies (Safeway, Vons, Jewel-Osco, Tom Thumb, and more) has historically offered a $4/$10 flat-price generic list in the Walmart mold. Their current site advertises transfer promotions instead of a published flat-price list, so treat this one as 'ask in store' rather than a sure thing.",
+          "eligibility_notes": "If your local banner still prices certain generics at a flat rate, it's available to anyone with or without insurance. Ask the pharmacist directly for their current flat-price generics list; that in-store answer is more reliable than any web page here.",
+          "cost": "Free to ask; flat prices historically $4 per 30-day / $10 per 90-day fill on qualifying generics.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "Call or visit a pharmacy and ask for the current flat-price list; some banners appear to have retired the published program."
+        }
+      ]
+    },
+    {
+      "id": "clinic-assistance",
+      "name": "Clinic & Assistance Databases",
+      "intro": "When the sticker price is still out of reach, these free directories and programs help you find free clinics, sliding-scale providers, and application-based free medicines. Expect forms and patience, but real relief exists.",
+      "cards": [
+        {
+          "id": "needymeds",
+          "name": "NeedyMeds",
+          "url": "https://www.needymeds.org/",
+          "what_it_is": "A huge free database of patient assistance programs, disease-specific funds, free clinics, and drug discount programs. Search by drug name and get the manufacturer's application, eligibility, and paperwork in one place.",
+          "eligibility_notes": "Free for patients, caregivers, and healthcare workers. Each linked program has its own income and insurance rules; NeedyMeds is the map, the programs are the territory.",
+          "cost": "Free.",
+          "recheck_by": "2027-06-30",
+          "recheck_how": "Confirm the drug search and program database are still free and current."
+        },
+        {
+          "id": "rxassist",
+          "name": "RxAssist",
+          "url": "https://www.rxassist.org/",
+          "what_it_is": "Another long-running free database of manufacturer patient assistance programs, plus practical guides on filling out the applications and tracking the paperwork.",
+          "eligibility_notes": "Free and open to everyone. Programs listed are generally for uninsured or underinsured patients who meet income guidelines; government-insured patients usually must try a different path (check each program's rules).",
+          "cost": "Free.",
+          "recheck_by": "2027-06-30",
+          "recheck_how": "Confirm the PAP database search still works for common drugs."
+        },
+        {
+          "id": "hrsa-health-centers",
+          "name": "HRSA Find a Health Center",
+          "url": "https://findahealthcenter.hrsa.gov/",
+          "what_it_is": "The federal government's official map of community health centers: clinics that treat you on a sliding fee scale based on income, whether or not you have insurance. Many also dispense low-cost or free prescriptions on site.",
+          "eligibility_notes": "Open to everyone, no insurance required, no immigration status requirement for the sliding scale at most centers. Fees are based on your income and family size, so low-income patients often pay little or nothing.",
+          "cost": "Free to search the map; visit costs are sliding-scale.",
+          "recheck_by": "2027-12-31",
+          "recheck_how": "Federal program, stable; verify the locator still points to HRSA community health centers."
+        },
+        {
+          "id": "pan-foundation",
+          "name": "PAN Foundation (now part of Patient Advocate Foundation)",
+          "url": "https://www.panfoundation.org/get-help",
+          "what_it_is": "A charity that provides grants covering out-of-pocket medication copays (and often premiums and transport) for people who can't afford them. In 2026 it merged with Patient Advocate Foundation, and its funds now accept people on Medicare, Medicaid, or TRICARE. Disease funds open and close as money becomes available, so timing matters.",
+          "eligibility_notes": "Requires prescription-drug insurance (Medicare, Medicaid, TRICARE, or commercial depending on the fund) and household income at or under a set multiple of the federal poverty level (commonly around 400-500%). Uninsured folks usually fit better under manufacturer assistance above. If a matching fund is closed, join its wait list to be notified when it reopens.",
+          "cost": "Free to apply; grants cover out-of-pocket drug costs for eligible people.",
+          "recheck_by": "2027-03-31",
+          "recheck_how": "The PAN/PAF merger and fund openings change frequently. Check which disease funds are open and reconfirm current insurance eligibility rules."
+        },
+        {
+          "id": "211-help",
+          "name": "211 (United Way Helpline)",
+          "url": "https://www.211.org/",
+          "what_it_is": "Dial 211 or search the site to reach a local helpline that knows which nearby clinics, county programs, churches, and charities help with prescription costs. The most local, human option on this list.",
+          "eligibility_notes": "Free for anyone in the US. The operator can't diagnose or prescribe, but can point you to local prescription help you'd never find with a search engine.",
+          "cost": "Free.",
+          "recheck_by": "2027-06-30",
+          "recheck_how": "Confirm 211 service still covers prescription assistance referrals."
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "no_medical_advice": "This entire directory is information and navigation only. It is never medical advice. We do not diagnose, treat, prescribe, or recommend any medicine or treatment for anyone. If you have questions about your own care, your prescriber and your licensed pharmacist are the right places to start.",
+    "stacking_rule": "One discount at a time: you usually can't combine a manufacturer copay card, a pharmacy discount card, and insurance on the same fill. Ask the pharmacist which one is cheapest for this specific prescription.",
+    "medicare_note": "If you're on Medicare, the Medicare Prescription Payment Plan (spreading out-of-pocket drug costs into monthly payments) and the $2,000 annual Part D out-of-pocket cap (for 2025 onward) may matter to you; compared with the low prices here, ask your plan or State Health Insurance Assistance Program (SHIP) for help.",
+    "pharmacist_tip": "The pharmacist (not the cashier) is the person to ask about the cheapest way to fill this prescription. Ask directly: 'What's the cash price with your discount card vs. my insurance?'"
+  }
+}
